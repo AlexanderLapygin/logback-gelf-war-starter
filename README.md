@@ -4,13 +4,14 @@
     </a>
 </div> 
 
-# Logback GELF in war starter
+# Logback GELF in Spring Boot war starter
 
 ## Feature tags
 - gelf
 - java
 - logback
 - maven
+- spring-boot
 - starter
 - template
 - war
