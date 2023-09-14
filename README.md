@@ -31,22 +31,22 @@
 ## Requirements
 
 - [Java](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [Tomcat](https://tomcat.apache.org/download-10.cgi)
 
 ---
 
-## Build
-
-```sh
-mvnw clean package
-```
-
 ## Run
 
-```sh
-java -cp target/hello-world-1.0-SNAPSHOT.jar com.example.App
-```
+1) Build the WAR file by running the Maven command:
 
-Watch 'Hello World!' in the console.
+```sh
+mvn clean package
+```
+2) Copy the resulting *springboot-war-helloworld.war* file to the *webapps* directory of your Tomcat server.
+
+3) Start the Tomcat server by executing the appropriate startup script for your operating system. For example, run startup.sh (for Unix) or startup.bat (for Windows).
+
+4) After Tomcat starts successfully, your application will be accessible at http://localhost:8080/springboot-war-helloworld/hello.
 
 ### License
 
