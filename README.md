@@ -13,6 +13,7 @@
 - maven
 - starter
 - template
+- war
 
 ---
 
