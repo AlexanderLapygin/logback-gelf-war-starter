@@ -4,7 +4,7 @@
     </a>
 </div> 
 
-# Logback GELF starter
+# Logback GELF in war starter
 
 ## Feature tags
 - gelf
@@ -18,7 +18,7 @@
 ---
 
 ## Direct ancestors
-[- gelf](https://github.com/AlexanderLapygin/logback-starter/tree/main#readme)
+[- war](https://github.com/AlexanderLapygin/logback-gelf-starter/tree/main#readme)
 
 ---
 
