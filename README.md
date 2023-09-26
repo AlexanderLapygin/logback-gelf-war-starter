@@ -11,7 +11,6 @@
 - java
 - logback
 - maven
-- spring-boot
 - starter
 - template
 - war
